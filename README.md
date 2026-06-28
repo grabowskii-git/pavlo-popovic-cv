@@ -1,26 +1,27 @@
 # Pavlo Popovic — Interactive CV
 
-Single-file interactive CV prepared for GitHub Pages.
+This is a single-file HTML CV optimized for hosting on GitHub Pages.
 
-## Files
+The site is published directly from `index.html`.
 
-- `index.html` — the published CV page.
-- `.nojekyll` — tells GitHub Pages to serve the files as plain static files.
+## Expected URL
+The website will be accessible at:
+https://grabowskii-git.github.io/pavlo-popovic-cv/
 
-## Recommended GitHub Pages settings
+## Privacy Note
+The page includes noindex/nofollow meta tag, but it is still publicly accessible to anyone with the link.
 
-Use:
+## External Dependencies
+This project relies on:
+- `Google Fonts Inter`
+- `Bootstrap Icons CDN`
 
-- Source: `Deploy from a branch`
-- Branch: `main`
-- Folder: `/ (root)`
+## Local Preview
+To preview the CV locally, simply open `index.html` in any web browser.
 
-After publishing, the expected URL for a project repository is:
-
-```text
-https://<github-username>.github.io/pavlo-popovic-cv/
-```
-
-## Privacy note
-
-The HTML contains a `noindex, nofollow` robots meta tag. This reduces search engine indexing, but the page is still publicly accessible to anyone with the link.
+## Publish Instructions
+To deploy the site to GitHub Pages:
+1. Navigate to your repository settings on GitHub: **Settings** → **Pages**.
+2. Under **Build and deployment** → **Source**, select **Deploy from a branch**.
+3. Under **Branch**, select **main** and the folder `/ (root)`.
+4. Click **Save**.

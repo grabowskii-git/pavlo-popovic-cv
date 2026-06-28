@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.zip
+*.docx
+*.pdf
+cv_render/
+cv_pdf_render/
